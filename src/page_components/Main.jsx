@@ -33,7 +33,7 @@ export default function Main() {
 
         // Create a new article object with a unique ID
         const newArticleObj = {
-            id: articles[articles.length - 1].id + 1,
+            id: articles.length === 0 ? 1 : articles[articles.length - 1].id + 1,
             title: newArticle
         };
 
@@ -71,7 +71,7 @@ export default function Main() {
                 <ul> {/* Display each article in the list */}
                     {articles.map((article) => (
                         <li key={article.id}>
-                            {article.title}
+                            {article.title} {article.id}
                             <button onClick={() => removeArticle(article.id)}>Delete</button>
                         </li>
                     ))}
