@@ -19,3 +19,33 @@ header h1 {
 }
 
 /* MAIN (Main.jsx) */
+main {
+    width: 50%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+main li {
+    list-style: none;
+    padding: 5px;
+    font-weight: bolder;
+    border: solid 1px lightgray;
+    border-radius: 3px;
+    margin: 2px 2px 2px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin-left: 10px;
+    background-color: rgba(13, 110, 253, 255);
+    border: solid 1px lightgray;
+    color: white;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form {
+    margin-bottom: 10px;
+}
