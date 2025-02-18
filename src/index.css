@@ -8,3 +8,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* HEADER (Header.jsx) */
+header {
+    background-color: rgba(248, 249, 250, 255);
+}
+
+header h1 {
+    padding: 20px;
+}
