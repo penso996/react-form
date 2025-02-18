@@ -71,7 +71,7 @@ export default function Main() {
                 <ul> {/* Display each article in the list */}
                     {articles.map((article) => (
                         <li key={article.id}>
-                            {article.title} {article.id}
+                            {article.title}
                             <button onClick={() => removeArticle(article.id)}>Delete</button>
                         </li>
                     ))}
