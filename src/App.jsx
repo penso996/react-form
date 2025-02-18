@@ -1,5 +1,5 @@
-import Header from "./assets/page_components/Header"
-import Main from "./assets/page_components/Main"
+import Header from "./page_components/Header"
+import Main from "./page_components/Main"
 
 function App() {
 
