@@ -68,7 +68,7 @@ export default function Main() {
 
             {/* If the list is empty, show a message */}
             {articles.length === 0 ? (<h2>Your list is empty</h2>) : (
-                <ul> {/* Display each article in the list */}
+                <ul> {/* Or display each article in the list */}
                     {articles.map((article) => (
                         <li key={article.id}>
                             {article.title}
