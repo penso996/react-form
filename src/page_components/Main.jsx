@@ -33,7 +33,7 @@ export default function Main() {
 
         // Create a new article object with a unique ID
         const newArticleObj = {
-            id: articles.length + 1,
+            id: articles[articles.length - 1].id + 1,
             title: newArticle
         };
 
